@@ -8,9 +8,9 @@ Minicurso do CITi: você vai construir um agente de IA que monta playlists a par
 
 ## Para começar
 
-1. Clone o repositório:
+1. Crie a sua cópia clicando em **Use this template → Create a new repository** (ou, se preferir só baixar, clone direto):
    ```
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/juliaandradel/agente-dj-minicurso.git
    cd agente-dj-minicurso
    ```
 2. Siga o passo a passo em **[COMO_RODAR.md](COMO_RODAR.md)**.
