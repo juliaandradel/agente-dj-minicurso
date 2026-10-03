@@ -11,6 +11,14 @@ O projeto tem **duas metades**, e as duas precisam estar ligadas ao mesmo tempo:
 
 A ordem importa: **primeiro o cérebro, depois o rosto.** O site procura o agente assim que abre; se o agente não estiver no ar, ele não acha ninguém.
 
+Ordem prática para rodar tudo:
+
+1. Criar os dois arquivos `.env`.
+2. Instalar as bibliotecas do Python com `pip install -r backend/requirements.txt`.
+3. Instalar o site com `cd frontend` e `npm install`.
+4. Ligar o cérebro abrindo `backend/aula_aluna.ipynb` e rodando o caderno.
+5. Ligar o rosto com `cd frontend` e `npm run dev`.
+
 ---
 
 ## Antes de começar
@@ -21,7 +29,13 @@ Confira se você tem instalado:
 - **VS Code** com a extensão **Jupyter** (é ela que abre os cadernos `.ipynb`)
 - **Node.js 20.19** ou mais novo — é o que faz o site funcionar. Baixe em [nodejs.org](https://nodejs.org) e escolha a versão **LTS**.
 
-Para saber se o Node já está instalado, abra um terminal e digite `node -v`. Se aparecer um número, está lá.
+Para saber se o Node já está instalado, abra um terminal e digite o comando abaixo, sem as crases:
+
+```powershell
+node -v
+```
+
+Se aparecer um número, está lá.
 
 ---
 
