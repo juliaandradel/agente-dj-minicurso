@@ -1,0 +1,18 @@
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-family: var(--font-mono);
+  color: #2a0a1e;
+}
+
+.bubble {
+  margin: 0;
+  max-width: min(760px, 85%);
+  box-sizing: border-box;
+  padding: 18px 28px;
+  border-radius: 24px;
+  background: #ffe0ed;
+  font-size: 20px;
+  line-height: 1.45;
+}

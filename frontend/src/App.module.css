@@ -1,0 +1,75 @@
+.root {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 640px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--dj-fundo);
+  font-family: var(--font-mono);
+  color: #2a0a1e;
+}
+
+.headerSlot {
+  position: relative;
+  z-index: 2;
+  flex: none;
+}
+
+.homeMain {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px clamp(20px, 4vw, 56px) 120px;
+  box-sizing: border-box;
+}
+
+.homeInner {
+  width: 100%;
+  max-width: 1260px;
+}
+
+.chatMain {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.thread {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 12px clamp(20px, 4vw, 56px) 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.errorSlot {
+  display: flex;
+  justify-content: center;
+}
+
+.errorInner {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.dock {
+  position: relative;
+  z-index: 1;
+  flex: none;
+  width: 100%;
+  max-width: 1252px;
+  margin: 0 auto;
+  padding: 8px clamp(20px, 4vw, 56px) 28px;
+  box-sizing: border-box;
+}

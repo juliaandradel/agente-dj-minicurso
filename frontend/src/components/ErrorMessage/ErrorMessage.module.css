@@ -1,0 +1,32 @@
+.root {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: var(--font-mono);
+  color: #2a0a1e;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-title);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: #2a0a1e;
+}
+
+.lead {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.detail {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6e4a5e;
+}

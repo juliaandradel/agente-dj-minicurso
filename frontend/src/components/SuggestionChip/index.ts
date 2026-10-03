@@ -1,0 +1,1 @@
+export { SuggestionChip } from './SuggestionChip'

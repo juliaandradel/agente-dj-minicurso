@@ -1,0 +1,81 @@
+.form {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 999px;
+  border: 1.5px solid #ff6ba8;
+  background: rgba(255, 255, 255, 0.94);
+  font-family: var(--font-mono);
+  color: #2a0a1e;
+}
+
+.form:focus-within {
+  border-color: #e12562;
+  box-shadow: 0 0 0 4px rgba(255, 107, 168, 0.25);
+}
+
+.label {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+}
+
+.input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 72px;
+  padding: 0 0 0 34px;
+  border: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: 22px;
+  color: #2a0a1e;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #7d5f78;
+  opacity: 1;
+}
+
+.heroButton {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 56px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: 999px;
+  background: #e12562;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.dockedButton {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #e12562;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.arrow {
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

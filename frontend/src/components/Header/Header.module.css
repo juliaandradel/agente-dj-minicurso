@@ -1,0 +1,62 @@
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px 24px;
+  padding: 28px clamp(20px, 4vw, 56px);
+  font-family: var(--font-mono);
+  color: #2a0a1e;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.divider {
+  width: 2px;
+  height: 44px;
+  border-radius: 2px;
+  background: #ff6ba8;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.dj {
+  color: #ff6ba8;
+}
+
+.agent {
+  color: #ff6419;
+}
+
+.newButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 52px;
+  padding: 0 26px;
+  border-radius: 16px;
+  border: 1.5px solid #ff6ba8;
+  background: rgba(255, 255, 255, 0.75);
+  color: #e12562;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.plus {
+  stroke-width: 2.4;
+  stroke-linecap: round;
+}

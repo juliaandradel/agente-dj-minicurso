@@ -1,0 +1,33 @@
+html,
+body,
+#root {
+  margin: 0;
+  background: var(--dj-fundo);
+}
+
+a {
+  color: var(--dj-pink);
+}
+
+a:hover {
+  color: var(--dj-pink-hover);
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--dj-laranja);
+  outline-offset: 3px;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

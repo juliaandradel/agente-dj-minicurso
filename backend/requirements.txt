@@ -1,0 +1,11 @@
+# Agente e aula (notebooks)
+pandas
+matplotlib
+google-genai
+python-dotenv
+pydantic
+ipykernel
+
+# Servidor: as últimas células do caderno (Bloco 7) põem o agente no ar
+fastapi
+uvicorn[standard]

@@ -1,0 +1,18 @@
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-title);
+  color: #2a0a1e;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  max-width: 760px;
+  font-weight: 400;
+  font-size: clamp(46px, 6.6vw, 88px);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #2a0a1e;
+}

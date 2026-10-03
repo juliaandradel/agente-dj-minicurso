@@ -1,0 +1,18 @@
+.root {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* a imagem é um recorte com as bordas direita e inferior cortadas:
+   fica ancorada no canto, 24px para fora. Não mudar essa ancoragem. */
+.blob {
+  position: absolute;
+  right: -24px;
+  bottom: -24px;
+  height: auto;
+  image-rendering: auto;
+  transform-origin: 100% 100%;
+}

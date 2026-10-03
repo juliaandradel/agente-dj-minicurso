@@ -1,0 +1,34 @@
+.root {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: var(--font-mono);
+  color: #2a0a1e;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.disc {
+  flex: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.cardSlot {
+  padding-left: 78px;
+  max-width: 1130px;
+  box-sizing: border-box;
+}

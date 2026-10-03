@@ -1,0 +1,18 @@
+:root {
+  --dj-rosa: #ff6ba8;        /* bordas, "Dj" */
+  --dj-laranja: #ff6419;     /* "Agent", "a" e brilhos do logo, anel de foco */
+  --dj-pink: #e12562;        /* botões, links, texto das sugestões */
+  --dj-pink-hover: #b3134a;  /* só para link em hover */
+  --dj-fundo: #fff5fa;
+  --dj-texto: #2a0a1e;
+  --dj-texto-suave: #6e4a5e;
+  --dj-artista: #3d2133;
+  --dj-placeholder: #7d5f78;
+  --dj-balao: #ffe0ed;       /* mensagem da pessoa */
+  --dj-superficie: #fffbfd;  /* cards */
+  --dj-linha: #f7dce8;       /* divisórias */
+  --dj-destaque: #fff0f6;    /* faixa trocada */
+  --dj-sombra-card: 0 18px 40px rgba(225, 37, 98, 0.08);
+  --font-title: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --font-mono: 'Source Code Pro', ui-monospace, Menlo, monospace;
+}

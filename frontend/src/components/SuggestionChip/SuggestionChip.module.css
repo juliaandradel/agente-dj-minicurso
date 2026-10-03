@@ -1,0 +1,13 @@
+.chip {
+  height: 56px;
+  padding: 0 28px;
+  border-radius: 999px;
+  border: 1.5px solid #ff6ba8;
+  background: rgba(255, 255, 255, 0.75);
+  color: #e12562;
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}

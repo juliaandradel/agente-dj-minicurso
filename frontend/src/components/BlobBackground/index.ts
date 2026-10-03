@@ -1,0 +1,1 @@
+export { BlobBackground } from './BlobBackground'

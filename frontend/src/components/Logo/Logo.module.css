@@ -1,0 +1,25 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  height: 56px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #e12562;
+}
+
+.text {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.div {
+  color: #e12562;
+}
+
+.a {
+  color: #ff6419;
+}
